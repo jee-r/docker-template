@@ -4,7 +4,7 @@
 [![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/j33r/<PROJECT_NAME>?style=flat-square)](https://microbadger.com/images/j33r/<PROJECT_NAME>)
 [![MicroBadger Layers](https://img.shields.io/microbadger/layers/j33r/<PROJECT_NAME>?style=flat-square)](https://microbadger.com/images/j33r/<PROJECT_NAME>)
 [![Docker Pulls](https://img.shields.io/docker/pulls/j33r/<PROJECT_NAME>?style=flat-square)](https://hub.docker.com/r/j33r/<PROJECT_NAME>)
-[![DockerHub](https://shields.io/badge/Dockerhub-j33r/php%E2%88%92fpm-%232496ED?logo=docker&style=flat-square)](https://hub.docker.com/r/j33r/<PROJECT_NAME>)
+[![DockerHub](https://shields.io/badge/Dockerhub-j33r/<PROJECT_NAME>-%232496ED?logo=docker&style=flat-square)](https://hub.docker.com/r/j33r/<PROJECT_NAME>)
 
 A docker image for [<PROJECT_NAME>](<PROJECT_URL>) ![<PROJECT_NAME>'s logo](<PROJECT_LOGO_URL)
 
@@ -66,7 +66,7 @@ Here's an example `docker-compose.yml` config:
 version: "3"
 
 services:
-  php:
+  <PROJECT_NAME>:
     image: j33r/<PROJECT_NAME>:latest    
     user: "${UID:-1000}:${GID:-1000}"
     restart: unless-stopped
